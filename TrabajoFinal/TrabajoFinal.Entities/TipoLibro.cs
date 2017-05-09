@@ -8,6 +8,6 @@ namespace TrabajoFinal.Entities
 {
     public enum TipoLibro
     {
-        Cientifico, Recretativos,Filosoficos, Instructivos, Literatura, Historia
+        Libro, Revista, Novel_Grafica
     }
 }

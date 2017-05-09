@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class Distrito
+    public enum ClasificacionLibro
     {
-        public int IdDistrito { get; set; }
-        public string Nombre_Distrito { get; set; }
+        Cientifico, Recretativos,Filosoficos, Instructivos, Literatura, Historia
     }
 }

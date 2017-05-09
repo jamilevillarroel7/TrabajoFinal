@@ -8,5 +8,7 @@ namespace TrabajoFinal.Entities
 {
     public class Provincia
     {
+        public int IdProvincia { get; set; }
+        public string Nom_Provincia { get; set; }
     }
 }

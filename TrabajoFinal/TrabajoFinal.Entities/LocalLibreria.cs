@@ -10,5 +10,6 @@ namespace TrabajoFinal.Entities
     {
         public string IdLocal { get; set; }
         public string Direccion_Local { get; set; }
+        public Empleado IdEmpleado { get; set; }
     }
 }

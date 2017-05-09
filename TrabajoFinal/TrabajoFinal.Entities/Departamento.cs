@@ -8,5 +8,7 @@ namespace TrabajoFinal.Entities
 {
     public class Departamento
     {
+        public int IdDepartamento { get; set; }
+        public string Nom_Departamento { get; set; }
     }
 }
