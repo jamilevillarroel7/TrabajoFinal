@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TipoLibro.cs" />
     <Compile Include="Envio.cs" />
     <Compile Include="DetalleVenta.cs" />
     <Compile Include="PagoTarjeta.cs" />
@@ -60,7 +61,7 @@
     <Compile Include="Distrito.cs" />
     <Compile Include="Libreria.cs" />
     <Compile Include="DetalleLibro.cs" />
-    <Compile Include="TipoLibro.cs" />
+    <Compile Include="ClasificacionLibro.cs" />
     <Compile Include="TipoEmpleado.cs" />
     <Compile Include="Empleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
