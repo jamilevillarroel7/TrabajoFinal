@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class TipoEmpleado
+    public enum TipoEmpleado
     {
+        Admin_Libreria, Jefe_Local
     }
 }

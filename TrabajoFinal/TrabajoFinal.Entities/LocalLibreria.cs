@@ -8,5 +8,7 @@ namespace TrabajoFinal.Entities
 {
     public class LocalLibreria
     {
+        public string IdLocal { get; set; }
+        public string Direccion_Local { get; set; }
     }
 }

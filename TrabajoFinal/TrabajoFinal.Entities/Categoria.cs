@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class Categoria
+    public enum Categoria
     {
+        Bebes, Ninos, Adolescentes, Adultos
     }
 }

@@ -8,5 +8,8 @@ namespace TrabajoFinal.Entities
 {
     public class DetalleLibro
     {
+        //public Libro IdLibro { get; set; }
+        //public int MyProperty { get; set; }
+        public int Stock_Local { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class TipoLibro
+    public enum TipoLibro
     {
+        Cientifico, Recretativos,Filosoficos, Instructivos, Literatura, Historia
     }
 }

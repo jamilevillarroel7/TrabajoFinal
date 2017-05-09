@@ -8,5 +8,12 @@ namespace TrabajoFinal.Entities
 {
     public class Libro
     {
+        public string IdLibro { get; set; }
+        public string Editorial { get; set; }
+        public double Precio  { get; set; }
+        public char Estado { get; set; }
+        public int AñoPubli { get; set; }
+        public double Valoracion { get; set; }
+        public int NumeroPagina { get; set; }
     }
 }
