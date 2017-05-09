@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class Envio 
+    public enum Envio 
     {
+        Recojo_Libreria, Delivery
     }
 }
