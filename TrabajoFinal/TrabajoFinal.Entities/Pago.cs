@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    class Pago
+    public class Pago
     {
 
         public int Pagoid { get; set; }
 
         public TipoPago TipoPago { get; set; }
 
+        public Pago(int pagoId, TipoPago tipoPago)
+        {
+            Pagoid = pagoId;
+            TipoPago = tipoPago;
 
+        }
 
     }
 }

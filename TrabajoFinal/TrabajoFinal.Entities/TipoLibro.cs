@@ -8,6 +8,6 @@ namespace TrabajoFinal.Entities
 {
     public enum TipoLibro
     {
-        Libro, Revista, Novel_Grafica
+        Libro, Revista, Novel_Grafica, NoDefinido
     }
 }

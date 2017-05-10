@@ -8,8 +8,20 @@ namespace TrabajoFinal.Entities
 {
     public class LocalLibreria
     {
-        public string Localid { get; set; }
+        public int Localid { get; set; }
 
         public Empleado Empleado { get; set; }
+
+        public LocalLibreria()
+        {
+
+        }
+
+        public LocalLibreria(int localId, Empleado empleado)
+        {
+            Localid = localId;
+            Empleado = empleado;
+
+        }
     }
 }

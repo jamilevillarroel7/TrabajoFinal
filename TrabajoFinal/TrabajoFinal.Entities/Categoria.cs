@@ -8,6 +8,6 @@ namespace TrabajoFinal.Entities
 {
     public enum Categoria
     {
-        Bebes, Ninos, Adolescentes, Adultos
+        Bebes, Ninos, Adolescentes, Adultos, NoDefinido
     }
 }

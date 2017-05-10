@@ -12,5 +12,15 @@ namespace TrabajoFinal.Entities
 
         public Nacionalidad Nacionalidad { get; set; }
 
+        public Autor()
+        {
+
+        }
+
+        public Autor(Nacionalidad nacionalidad)
+        {
+            Nacionalidad = nacionalidad;
+
+        }
     }
 }

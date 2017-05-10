@@ -8,9 +8,21 @@ namespace TrabajoFinal.Entities
 {
     public class Empleado
     {
-        public string Empleadoid { get; set; }
+        public int Empleadoid { get; set; }
 
         public TipoEmpleado TipoEmpleado { get; set; }
+
+        public Empleado()
+        {
+            TipoEmpleado = TipoEmpleado.NoDefinido;
+        }
+
+        public Empleado(int empleadoId, TipoEmpleado tipoEmpleado)
+        {
+            Empleadoid = empleadoId;
+            TipoEmpleado = tipoEmpleado;
+
+        }
 
     }
 }
