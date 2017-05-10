@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D64CF84-CA00-4DEC-B5AC-C656F8937B2D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>TrabajoFinal</RootNamespace>
-    <AssemblyName>TrabajoFinal</AssemblyName>
+    <ProjectGuid>{73702877-6596-4ACB-BD38-E4CFF8BFEBE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrabajoFinal.Persistence</RootNamespace>
+    <AssemblyName>TrabajoFinal.Persistence</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -49,22 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="TrabajoFinalDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TrabajoFinal.Entities\TrabajoFinal.Entities.csproj">
       <Project>{88c06a18-eeb4-485a-be6e-b8352dc04503}</Project>
       <Name>TrabajoFinal.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TrabajoFinal.Persistence\TrabajoFinal.Persistence.csproj">
-      <Project>{73702877-6596-4acb-bd38-e4cff8bfebe9}</Project>
-      <Name>TrabajoFinal.Persistence</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,6 @@ namespace TrabajoFinal.Entities
     {
         public int Clienteid { get; set; }
 
-        public Carrito Carrito { get; set; }
-
-        public List<Libro> Libros { get; set; }
 
     }
 }
