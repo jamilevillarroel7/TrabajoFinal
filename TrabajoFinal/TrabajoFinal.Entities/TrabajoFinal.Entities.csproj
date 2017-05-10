@@ -40,27 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pago.cs" />
     <Compile Include="TipoLibro.cs" />
     <Compile Include="Envio.cs" />
-    <Compile Include="DetalleVenta.cs" />
-    <Compile Include="PagoTarjeta.cs" />
     <Compile Include="Comprobante.cs" />
+    <Compile Include="TipoPago.cs" />
     <Compile Include="Venta.cs" />
     <Compile Include="Nacionalidad.cs" />
     <Compile Include="Carrito.cs" />
     <Compile Include="Autor.cs" />
-    <Compile Include="TituloLibro.cs" />
     <Compile Include="Categoria.cs" />
-    <Compile Include="TituloRevista.cs" />
     <Compile Include="LocalLibreria.cs" />
     <Compile Include="Libro.cs" />
-    <Compile Include="HistorialCliente.cs" />
     <Compile Include="Cliente.cs" />
-    <Compile Include="Departamento.cs" />
-    <Compile Include="Provincia.cs" />
-    <Compile Include="Distrito.cs" />
     <Compile Include="Libreria.cs" />
-    <Compile Include="DetalleLibro.cs" />
     <Compile Include="ClasificacionLibro.cs" />
     <Compile Include="TipoEmpleado.cs" />
     <Compile Include="Empleado.cs" />
