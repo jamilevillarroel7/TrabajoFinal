@@ -9,8 +9,10 @@ namespace TrabajoFinal.Entities
     class Pago
     {
 
-        public int pagoid { get; set; }
-    
+        public int Pagoid { get; set; }
+
+        public TipoPago TipoPago { get; set; }
+
 
 
     }

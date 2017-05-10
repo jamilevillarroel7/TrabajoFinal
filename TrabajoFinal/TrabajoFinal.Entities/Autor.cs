@@ -8,10 +8,9 @@ namespace TrabajoFinal.Entities
 {
     public class Autor
     {
-        public int autorid { get; set; }
-        public string Nombre_Autor { get; set; }
-        public string Apellido_Autor { get; set; }
-        public DateTime FechaNacimientos { get; set; }
+        public int Autorid { get; set; }
+
+        public Nacionalidad Nacionalidad { get; set; }
 
     }
 }

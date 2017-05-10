@@ -9,8 +9,8 @@ namespace TrabajoFinal.Entities
     public class Nacionalidad
     {
 
-        public int nacionalidadid { get; set; }
-        public string nombre { get; set; }
+        public int Nacionalidadid { get; set; }
+
 
 
     }
