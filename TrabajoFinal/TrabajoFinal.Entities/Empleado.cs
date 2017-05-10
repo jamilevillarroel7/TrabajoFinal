@@ -8,7 +8,7 @@ namespace TrabajoFinal.Entities
 {
     public class Empleado
     {
-        public string IdEmpleado { get; set; }
+        public string empleadoid { get; set; }
         public string Nombre { get; set; }
         public string ApePaterno { get; set; }
         public string ApeMaterno { get; set; }

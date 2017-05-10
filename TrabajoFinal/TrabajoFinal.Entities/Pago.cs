@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class Distrito
+    class Pago
     {
-        public int IdDistrito { get; set; }
-        public string Nombre_Distrito { get; set; }
+
+        public int pagoid { get; set; }
+    
+
+
     }
 }

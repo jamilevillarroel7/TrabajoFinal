@@ -8,7 +8,7 @@ namespace TrabajoFinal.Entities
 {
     public class Cliente
     {
-        public int IdCliente { get; set; }
+        public int clienteid { get; set; }
         public int Numero_Identi_C { get; set; }
         public string nombre_C { get; set; }
         public string apelPaterno_C { get; set; }

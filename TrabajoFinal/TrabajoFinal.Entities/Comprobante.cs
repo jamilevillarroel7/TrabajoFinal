@@ -8,5 +8,11 @@ namespace TrabajoFinal.Entities
 {
     public class Comprobante
     {
+        public int comprobanteid { get; set; }
+        public int fecha { get; set; }
+        public double precioTotal { get; set; }
+        public int clienteid { get; set; }
+
+
     }
 }

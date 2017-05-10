@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-    public class TituloLibro
+    public enum TipoPago
     {
+        Efectivo, Tarjeta
+
+   
     }
 }
