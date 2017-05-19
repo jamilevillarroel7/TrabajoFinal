@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
-   public class Carrito
+    [Table("Carritos")]
+    public class Carrito
     {
+         [Key]
         public int Carritoid { get; set; }
-
         public Cliente Cliente { get; set; }
-
         public List<Libro> Libros { get; set; }
 
         public Carrito()

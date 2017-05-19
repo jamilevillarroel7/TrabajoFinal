@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TrabajoFinal.Entities
 {
+    [Table("Librerias")]
     public class Libreria
     {
+        [Key]
         public int Libreriaid { get; set; }
-
         public List<LocalLibreria> LocalLibrerias { get; set; }
-
         public List<Empleado> Empleados { get; set; }
 
         public Libreria()
