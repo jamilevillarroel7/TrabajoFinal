@@ -13,7 +13,7 @@ namespace TrabajoFinal.Persistence.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201705190025477_InitialModel"; }
+            get { return "201705190400048_InitialModel"; }
         }
         
         string IMigrationMetadata.Source
